@@ -2,7 +2,7 @@
 $server = 'localhost';
 $username = 'root';
 $password = '';
-$database = 'auth';
+$database = 'pdf_online';
 
 try{
 	$conn = new PDO("mysql:host=$server;dbname=$database;", $username, $password);

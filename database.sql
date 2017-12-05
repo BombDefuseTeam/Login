@@ -1,5 +1,5 @@
-CREATE DATABASE `auth`;
-USE `auth`;
+CREATE DATABASE `pdf_online`;
+USE `pdf_online`;
 
 DROP TABLE IF EXISTS `users`;
 
