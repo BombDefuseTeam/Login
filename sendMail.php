@@ -19,8 +19,8 @@ class MailSender {
             $mail->SMTPAuth = true;                               // Enable SMTP authentication
             $mail->Username = 'toannd210@gmail.com';                 // SMTP username
             $mail->Password = 'toan0064';                           // SMTP password
-            $mail->SMTPSecure = 'ssl';  //ssl                          // Enable TLS encryption, `ssl` also accepted
-            $mail->Port = 587; //465                                   // TCP port to connect to
+            $mail->SMTPSecure = 'ssl';                          // Enable TLS encryption, `ssl` also accepted
+            $mail->Port = 465; //587                                   // TCP port to connect to
             //Recipients
             $mail->setFrom('web-luv2q@mail-tester.com', 'Admin');
             $mail->addAddress($receiver, 'Member User');     // Add a recipient
